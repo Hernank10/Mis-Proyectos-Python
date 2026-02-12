@@ -1,34 +1,26 @@
-# 📚 GramatiCode: Academia de Lengua
+# 📚 GramatiCode: Academia Pro
 
-¡Bienvenido a **GramatiCode**! Una aplicación web moderna construida con **Reflex** (Python) para el aprendizaje y análisis de la gramática española.
+**GramatiCode** es una aplicación web full-stack desarrollada con **Reflex** (Python) diseñada para el aprendizaje dinámico de las reglas gramaticales y partes de la oración.
 
-## 🚀 Estado del Proyecto
-Este proyecto ha evolucionado de un entorno local limitado a una arquitectura en la nube usando **GitHub Codespaces**.
+## 🚀 Características Finales
+- **Módulo de Tildes:** Análisis de reglas de acentuación.
+- **Entrenamiento Time Attack:** Ejercicios con temporizador dinámico de 10 segundos.
+- **Sistema de Puntuación y Racha:** Gamificación con feedback inmediato (animación de temblor en errores).
+- **Salón de la Fama:** Persistencia de datos mediante **SQLite** y **SQLModel**.
+- **Premiación Dinámica:** Clasificación del usuario (Maestro, Erudito o Aprendiz) al finalizar los niveles.
 
-### ✨ Características
-* **Análisis en tiempo real:** Verificación de reglas de acentuación al instante.
-* **Interfaz Moderna:** Construida 100% en Python usando componentes de Reflex.
-* **Arquitectura Cloud:** Optimizado para correr en entornos virtuales de alto rendimiento.
+## 🛠️ Tecnologías
+- **Framework:** [Reflex](https://reflex.dev/) (Frontend & Backend en Python).
+- **Base de Datos:** SQLite con SQLModel.
+- **Estilos:** Diseño basado en componentes modernos con animaciones CSS personalizadas.
 
-## 🛠️ Instalación y Uso
-
-Si quieres correr este proyecto en tu propio Codespace o localmente:
-
-1. **Clonar el repositorio:**
-   \`\`\`bash
-   git clone https://github.com/Hernank10/Mis-Proyectos-Python.git
-   cd Mis-Proyectos-Python
-   \`\`\`
-
-2. **Instalar dependencias:**
-   \`\`\`bash
-   pip install reflex
-   \`\`\`
-
-3. **Iniciar la aplicación:**
-   \`\`\`bash
-   reflex run
-   \`\`\`
+## ⚙️ Instalación y Uso
+1. Clonar el repositorio.
+2. Crear entorno virtual: \`python -m venv venv\`.
+3. Activar entorno: \`source venv/bin/activate\`.
+4. Instalar dependencias: \`pip install reflex\`.
+5. Inicializar DB: \`reflex db init\`.
+6. Correr App: \`reflex run\`.
 
 ---
-*Desarrollado con ❤️ por Hernank10*
+*Proyecto desarrollado por Hernank10 en GitHub Codespaces - 2026*
